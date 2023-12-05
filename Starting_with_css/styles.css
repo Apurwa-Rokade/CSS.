@@ -1,0 +1,36 @@
+/* Base paragraph styles */
+.paragraph {
+    margin-bottom: 20px;
+  }
+  
+  /* Highlighted paragraph modifier */
+  .paragraph--highlighted {
+    background-color: yellow;
+    font-weight: bold;
+  }
+  
+  /* Sub-element of a paragraph */
+  .paragraph__sub {
+    color: gray;
+  }
+  
+  /* Larger font modifier */
+  .paragraph--large {
+    font-size: 18px;
+  }
+  
+  /* Italic sub-element modifier */
+  .paragraph__sub--italic {
+    font-style: italic;
+  }
+  
+  /* Green color modifier */
+  .paragraph--green {
+    color: green;
+  }
+  
+  /* Centered paragraph modifier */
+  .paragraph--center {
+    text-align: center;
+  }
+  

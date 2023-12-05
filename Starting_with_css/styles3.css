@@ -1,0 +1,43 @@
+/* Custom color palette */
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #e74c3c;
+    --background-color: #f2f2f2;
+  }
+  
+  /* Form styles */
+  .custom-form {
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: var(--primary-color);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Form sections */
+  .form-section {
+    margin-bottom: 15px;
+  }
+  
+  /* Labels */
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  /* Input fields */
+  .iputstyle {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+  }
+  
+  /* Apply opacity to a form section */
+  .form-section:nth-child(3) {
+    opacity: 0.7;
+  }
+  
