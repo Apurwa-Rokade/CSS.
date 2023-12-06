@@ -1,0 +1,20 @@
+/* Resetting default margins and paddings */
+body, h1, p, img {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Center-aligning content */
+  .content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Styling the image */
+  .google-fonts-image {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+  }
+  

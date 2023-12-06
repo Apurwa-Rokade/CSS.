@@ -1,0 +1,23 @@
+/* Resetting default margins and paddings */
+body, img {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Styling the container */
+  .container {
+    width: 300px; /* Set width as needed */
+    margin: 50px auto; /* Center the container */
+    overflow: hidden; /* Ensure the border-radius is applied */
+    border-radius: 50%; /* Make the image circular */
+  }
+  
+  /* Styling the image */
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 50%; /* Match the container's border-radius for circular shape */
+    
+  }
+  
