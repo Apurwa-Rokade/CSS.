@@ -1,0 +1,25 @@
+.container{
+   
+    width:600px;
+    background-color: aqua;
+    display:grid;
+    grid-template-columns: repeat(6,1fr);
+}
+.box{
+    background-color: rgb(197, 192, 192);
+    border: 5px;
+    padding:20px;
+    margin:10px;
+    order: 1;
+}
+.box1{
+    order:2;
+}
+.box2{
+    order:3;
+}
+
+.box:nth-child(even){
+    background-color: black;
+    color:white;
+}
