@@ -1,0 +1,38 @@
+*{
+    padding:0px;
+    margin:0px;
+    color:white;
+    
+}
+
+.nav
+{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    justify-content: space-between;
+    
+}
+
+li{
+    padding :10px;
+    margin:10px;
+    list-style-type:none;
+    
+    
+}
+
+@media (max-width:500px) {
+    .nav
+    {
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        justify-content: space-between;
+        
+    } 
+}
+/* 
+@media screen and (max-width:600px) {
+    
+} */
